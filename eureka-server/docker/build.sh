@@ -9,6 +9,6 @@ cp $cur/../target/eureka-server*.jar $cur/
 
 pkg_ver=`ls eureka-server*  | sed "s/eureka-server-\(.*\).jar/\1/g"`
 
-docker build -t dengshaolin/eureka $cur
+docker build -t dengshaolin/spring-eureka $cur
 
 rm -rf $cur/eureka-server*.jar
